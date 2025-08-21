@@ -1,0 +1,35 @@
+Sequência de E-mails — André VIP
+
+E0 — Entrega do Guia
+Assunto: Seu guia está aqui — Guia Express
+Corpo: Link para download + dica inicial.
+
+E1 — 3 Erros Comuns
+Assunto: 3 erros que vejo todos os dias
+Conteúdo: senha repetida, e-mail sem 2FA, aprovar login sem checar.
+
+E2 — Anti-Golpes
+Assunto: Como identificar golpes em 10s
+Regra rápida: pressa + link estranho + pedido de código = golpe.
+
+E3 — Caso Real
+Assunto: Como um aluno evitou prejuízo
+História breve + CTA para curso.
+
+E4 — Convite
+Assunto: Vem estudar comigo
+Convite direto para o curso.
+
+---
+
+Roteiro WhatsApp:
+Mensagem 1: Oi {{nome}}, aqui é André VIP! Vi que você baixou o Guia Express. Quer ajuda em qual rede começar?
+Mensagem 2: Conseguiu ativar 2FA? Se travar em algo, me chama.
+Mensagem 3: Quer condições especiais no curso completo?
+
+---
+
+Legenda + Hashtags:
+🔒 Baixe grátis o Guia Express com 15 ações para blindar Facebook, Instagram e WhatsApp em 15 minutos. Link na bio.
+
+#segurançadigital #cibersegurança #2FA #antigolpe #privacidadeonline #protejaseusdados #instagramseguro #whatsappseguro #senhasfortes #andrevip
