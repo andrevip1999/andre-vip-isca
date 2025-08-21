@@ -6,38 +6,44 @@
   <title>Guia Express — Segurança em Redes (Grátis) | André VIP</title>
   <meta name="description" content="Baixe o Guia Express com 15 ações para blindar Facebook, Instagram e WhatsApp em 15 minutos." />
   <style>
-    :root { --red:#E11D48; --blue:#0F172A; --ring:#1D2943; }
-    body { margin:0; font-family:Inter,system-ui; background:#0B1220; color:#E5E7EB }
-    .wrap { max-width:980px; margin:0 auto; padding:24px }
-    .card { background:#0E1528; border:1px solid var(--ring); border-radius:16px; padding:22px }
-    h1 { margin:0 0 10px }
-    .subtitle { color:#CBD5E1 }
-    label { font-size:14px; color:#D1D5DB }
-    input { width:100%; padding:12px; border-radius:12px; background:#0A1326; border:1px solid #1B2542; color:#E5E7EB; margin:6px 0 12px }
-    button { padding:12px 16px; border:none; border-radius:12px; background:linear-gradient(90deg,var(--red),#FB7185); color:#fff; font-weight:700; cursor:pointer }
-    footer { text-align:center; margin-top:18px; color:#94A3B8; font-size:12px }
-    a { color:#F472B6 }
+    body { font-family: Arial, sans-serif; background:#0B1220; color:#E5E7EB; margin:0; padding:20px; }
+    .card { max-width:500px; margin:40px auto; background:#0E1528; border:1px solid #1D2943; border-radius:12px; padding:20px; }
+    h1 { margin-top:0; }
+    label { display:block; margin-top:12px; font-size:14px; }
+    input { width:100%; padding:12px; border-radius:8px; border:1px solid #1B2542; background:#0A1326; color:#E5E7EB; margin-top:4px; }
+    button { margin-top:16px; width:100%; padding:14px; border:none; border-radius:8px;
+      background:linear-gradient(90deg,#E11D48,#FB7185); color:white; font-weight:bold; cursor:pointer }
+    button:hover { opacity:0.9; }
+    footer { margin-top:20px; font-size:12px; color:#94A3B8; text-align:center; }
+    a { color:#F472B6; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <h1>Guia Express: 15 ações para blindar suas redes</h1>
-      <p class="subtitle">Proteja Facebook, Instagram e WhatsApp com passos simples — o mesmo método que ensino aos meus alunos.</p>
-      <form action="https://formsubmit.co/hakingspcre@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="Novo lead — Guia Express (André VIP)">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="obrigado.html">
-        <label for="nome">Seu nome</label>
-        <input id="nome" type="text" name="nome" placeholder="Seu nome" required>
-        <label for="email">Seu melhor e‑mail</label>
-        <input id="email" type="email" name="email" placeholder="voce@exemplo.com" required>
-        <button type="submit">Receber Guia Grátis</button>
-      </form>
-      <p>Curso completo: <a href="https://andrevip1999.github.io/andre_hks-VIP/" target="_blank" rel="noopener">Clique aqui</a></p>
-    </div>
-    <footer>© <script>document.write(new Date().getFullYear())</script> André VIP — <a href="politica_privacidade.txt">Política de Privacidade</a></footer>
+  <div class="card">
+    <h1>Guia Express</h1>
+    <p>Preencha abaixo e receba grátis o PDF com 15 ações para blindar Facebook, Instagram e WhatsApp.</p>
+    
+    <form action="https://formsubmit.co/hakingspcre@gmail.com" method="POST">
+      <!-- configurações extras -->
+      <input type="hidden" name="_subject" value="Novo lead — Guia Express (André VIP)">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <!-- Troque SEU_USUARIO e NOME_DO_REPO pela sua URL do GitHub Pages -->
+      <input type="hidden" name="_next" value="https://SEU_USUARIO.github.io/NOME_DO_REPO/obrigado.html">
+
+      <label for="nome">Seu nome</label>
+      <input id="nome" type="text" name="nome" placeholder="Seu nome" required>
+
+      <label for="email">Seu melhor e-mail</label>
+      <input id="email" type="email" name="email" placeholder="voce@exemplo.com" required>
+
+      <button type="submit">📥 Receber Guia Grátis</button>
+    </form>
+    
+    <footer>
+      © <script>document.write(new Date().getFullYear())</script> André VIP — 
+      <a href="politica_privacidade.txt">Política de Privacidade</a>
+    </footer>
   </div>
 </body>
 </html>
